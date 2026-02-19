@@ -1,0 +1,57 @@
+Device: cuda
+Device: cuda
+Device: cuda
+Device: cuda
+Synapse root: C:/Users/ia260111/OneDrive - DVHE/Bureau/Synapse_Baseline_allbackbones/Data/synapse
+ROOT DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse
+LIST DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse
+LIST FILE    : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse\train.txt
+TRAIN NPZ DIR: C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\train_npz
+TEST  H5 DIR : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\test_vol_h5
+The length of train set is: 2211
+current epoch: 0 current lr: 0.0002
+Epoch 0, Loss=1.648844, Loss_SEG=0.795121, Loss_DICE=0.853724
+current epoch: 1 current lr: 0.0004
+Epoch 1, Loss=1.012628, Loss_SEG=0.135094, Loss_DICE=0.877534
+current epoch: 2 current lr: 0.0006
+Epoch 2, Loss=0.981164, Loss_SEG=0.098118, Loss_DICE=0.883045
+current epoch: 3 current lr: 0.0008
+Epoch 3, Loss=0.965612, Loss_SEG=0.086673, Loss_DICE=0.878938
+current epoch: 4 current lr: 0.001
+Epoch 4, Loss=0.957508, Loss_SEG=0.078592, Loss_DICE=0.878916
+current epoch: 5 current lr: 0.001
+Device: cuda
+ROOT DIR     : C:\Data\synapse
+LIST DIR     : C:\Data\synapse\lists_Synapse
+LIST FILE    : C:\Data\synapse\lists_Synapse\train.txt
+TRAIN NPZ DIR: C:\Data\synapse\train_npz
+TEST  H5 DIR : C:\Data\synapse\test_vol_h5
+Device: cuda
+Synapse root: C:/Users/ia260111/OneDrive - DVHE/Bureau/Synapse_Baseline_allbackbones/Data/synapse
+ROOT DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse
+LIST DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse
+LIST FILE    : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse\train.txt
+TRAIN NPZ DIR: C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\train_npz
+TEST  H5 DIR : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\test_vol_h5
+The length of train set is: 2211
+current epoch: 0 current lr: 2e-05
+Device: cuda
+Synapse root: C:/Users/ia260111/OneDrive - DVHE/Bureau/Synapse_Baseline_allbackbones/Data/synapse
+ROOT DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse
+LIST DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse
+LIST FILE    : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse\train.txt
+TRAIN NPZ DIR: C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\train_npz
+TEST  H5 DIR : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\test_vol_h5
+The length of train set is: 2211
+current epoch: 0 current lr: 0.0002
+Device: cuda
+Synapse root: C:/Users/ia260111/OneDrive - DVHE/Bureau/Synapse_Baseline_allbackbones/Data/synapse
+ROOT DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse
+LIST DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse
+LIST FILE    : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse\train.txt
+TRAIN NPZ DIR: C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\train_npz
+TEST  H5 DIR : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\test_vol_h5
+The length of train set is: 2211
+current epoch: 0 current lr: 0.0002
+Epoch 0, Loss=1.652442, Loss_SEG=0.797090, Loss_DICE=0.855352
+current epoch: 1 current lr: 0.0004
