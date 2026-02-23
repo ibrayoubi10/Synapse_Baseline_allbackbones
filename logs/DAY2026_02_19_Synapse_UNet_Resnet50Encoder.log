@@ -55,3 +55,285 @@ The length of train set is: 2211
 current epoch: 0 current lr: 0.0002
 Epoch 0, Loss=1.652442, Loss_SEG=0.797090, Loss_DICE=0.855352
 current epoch: 1 current lr: 0.0004
+Device: cuda
+Synapse root: C:/Users/ia260111/OneDrive - DVHE/Bureau/Synapse_Baseline_allbackbones/Data/synapse
+ROOT DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse
+LIST DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse
+LIST FILE    : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse\train.txt
+TRAIN NPZ DIR: C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\train_npz
+TEST  H5 DIR : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\test_vol_h5
+The length of train set is: 2211
+current epoch: 0 current lr: 0.0002
+Device: cuda
+Synapse root: C:/Users/ia260111/OneDrive - DVHE/Bureau/Synapse_Baseline_allbackbones/Data/synapse
+ROOT DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse
+LIST DIR     : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse
+LIST FILE    : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\lists_Synapse\train.txt
+TRAIN NPZ DIR: C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\train_npz
+TEST  H5 DIR : C:\Users\ia260111\OneDrive - DVHE\Bureau\Synapse_Baseline_allbackbones\Data\synapse\test_vol_h5
+The length of train set is: 2211
+current epoch: 0 current lr: 0.0002
+Epoch 0, Loss=1.654213, Loss_SEG=0.798222, Loss_DICE=0.855991
+[METRICS] Macro (classes 1..8) Dice=0.1227 | Jaccard=0.1176 | HD95=7.0611
+[METRICS] Class 01: Dice=0.0319 | Jaccard=0.0316 | HD95=8.0530
+[METRICS] Class 02: Dice=0.0714 | Jaccard=0.0714 | HD95=0.8930
+[METRICS] Class 03: Dice=0.0717 | Jaccard=0.0716 | HD95=3.7348
+[METRICS] Class 04: Dice=0.0092 | Jaccard=0.0091 | HD95=2.1703
+[METRICS] Class 05: Dice=0.4801 | Jaccard=0.4422 | HD95=18.2694
+[METRICS] Class 06: Dice=0.1117 | Jaccard=0.1117 | HD95=4.1224
+[METRICS] Class 07: Dice=0.0834 | Jaccard=0.0820 | HD95=10.8822
+[METRICS] Class 08: Dice=0.1223 | Jaccard=0.1214 | HD95=8.3640
+current epoch: 1 current lr: 0.0004
+Epoch 1, Loss=1.034776, Loss_SEG=0.162075, Loss_DICE=0.872701
+[METRICS] Macro (classes 1..8) Dice=0.0500 | Jaccard=0.0444 | HD95=2.5607
+[METRICS] Class 01: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 04: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 05: Dice=0.3951 | Jaccard=0.3506 | HD95=19.3739
+[METRICS] Class 06: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 07: Dice=0.0048 | Jaccard=0.0046 | HD95=1.1120
+[METRICS] Class 08: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+current epoch: 2 current lr: 0.0006000000000000001
+Epoch 2, Loss=0.994078, Loss_SEG=0.112817, Loss_DICE=0.881262
+[METRICS] Macro (classes 1..8) Dice=0.0778 | Jaccard=0.0708 | HD95=4.9096
+[METRICS] Class 01: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.0489 | Jaccard=0.0439 | HD95=5.9816
+[METRICS] Class 04: Dice=0.0364 | Jaccard=0.0326 | HD95=2.6175
+[METRICS] Class 05: Dice=0.4242 | Jaccard=0.3814 | HD95=19.9784
+[METRICS] Class 06: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 07: Dice=0.0723 | Jaccard=0.0676 | HD95=7.2795
+[METRICS] Class 08: Dice=0.0409 | Jaccard=0.0406 | HD95=3.4202
+current epoch: 3 current lr: 0.0008
+Epoch 3, Loss=0.970825, Loss_SEG=0.092031, Loss_DICE=0.878794
+[METRICS] Macro (classes 1..8) Dice=0.1608 | Jaccard=0.1473 | HD95=7.5777
+[METRICS] Class 01: Dice=0.0568 | Jaccard=0.0433 | HD95=3.9746
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.2425 | Jaccard=0.2248 | HD95=9.3240
+[METRICS] Class 04: Dice=0.2395 | Jaccard=0.2284 | HD95=8.5769
+[METRICS] Class 05: Dice=0.3582 | Jaccard=0.3234 | HD95=17.5493
+[METRICS] Class 06: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 07: Dice=0.2060 | Jaccard=0.1883 | HD95=11.5679
+[METRICS] Class 08: Dice=0.1837 | Jaccard=0.1702 | HD95=9.6289
+current epoch: 4 current lr: 0.001
+Epoch 4, Loss=0.953936, Loss_SEG=0.076078, Loss_DICE=0.877858
+[METRICS] Macro (classes 1..8) Dice=0.1851 | Jaccard=0.1662 | HD95=7.3132
+[METRICS] Class 01: Dice=0.2556 | Jaccard=0.2147 | HD95=7.7526
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.1473 | Jaccard=0.1262 | HD95=10.7454
+[METRICS] Class 04: Dice=0.1891 | Jaccard=0.1761 | HD95=8.2065
+[METRICS] Class 05: Dice=0.3904 | Jaccard=0.3595 | HD95=12.7582
+[METRICS] Class 06: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 07: Dice=0.2721 | Jaccard=0.2505 | HD95=9.8406
+[METRICS] Class 08: Dice=0.2263 | Jaccard=0.2027 | HD95=9.2023
+current epoch: 5 current lr: 0.001
+Epoch 5, Loss=0.943744, Loss_SEG=0.065601, Loss_DICE=0.878143
+[METRICS] Macro (classes 1..8) Dice=0.2125 | Jaccard=0.1917 | HD95=7.0311
+[METRICS] Class 01: Dice=0.4098 | Jaccard=0.3564 | HD95=6.0862
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.2110 | Jaccard=0.1893 | HD95=11.8735
+[METRICS] Class 04: Dice=0.1826 | Jaccard=0.1651 | HD95=11.6325
+[METRICS] Class 05: Dice=0.3809 | Jaccard=0.3482 | HD95=11.5895
+[METRICS] Class 06: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 07: Dice=0.2384 | Jaccard=0.2205 | HD95=8.3778
+[METRICS] Class 08: Dice=0.2773 | Jaccard=0.2540 | HD95=6.6892
+current epoch: 6 current lr: 0.001
+Epoch 6, Loss=0.937364, Loss_SEG=0.062177, Loss_DICE=0.875187
+[METRICS] Macro (classes 1..8) Dice=0.2042 | Jaccard=0.1832 | HD95=6.8493
+[METRICS] Class 01: Dice=0.3986 | Jaccard=0.3452 | HD95=5.7105
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.1668 | Jaccard=0.1458 | HD95=10.9583
+[METRICS] Class 04: Dice=0.1927 | Jaccard=0.1708 | HD95=12.0480
+[METRICS] Class 05: Dice=0.3909 | Jaccard=0.3602 | HD95=10.8431
+[METRICS] Class 06: Dice=0.0001 | Jaccard=0.0001 | HD95=0.2453
+[METRICS] Class 07: Dice=0.2776 | Jaccard=0.2578 | HD95=10.2043
+[METRICS] Class 08: Dice=0.2072 | Jaccard=0.1859 | HD95=4.7851
+current epoch: 7 current lr: 0.001
+Epoch 7, Loss=0.927971, Loss_SEG=0.054095, Loss_DICE=0.873877
+[METRICS] Macro (classes 1..8) Dice=0.1889 | Jaccard=0.1688 | HD95=6.4923
+[METRICS] Class 01: Dice=0.3868 | Jaccard=0.3422 | HD95=4.3247
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.1513 | Jaccard=0.1307 | HD95=9.5770
+[METRICS] Class 04: Dice=0.1739 | Jaccard=0.1478 | HD95=11.1432
+[METRICS] Class 05: Dice=0.3278 | Jaccard=0.3031 | HD95=13.2920
+[METRICS] Class 06: Dice=0.0068 | Jaccard=0.0058 | HD95=0.7380
+[METRICS] Class 07: Dice=0.2311 | Jaccard=0.2139 | HD95=7.7972
+[METRICS] Class 08: Dice=0.2339 | Jaccard=0.2071 | HD95=5.0660
+current epoch: 8 current lr: 0.001
+Epoch 8, Loss=0.924740, Loss_SEG=0.051203, Loss_DICE=0.873538
+[METRICS] Macro (classes 1..8) Dice=0.2088 | Jaccard=0.1905 | HD95=4.7420
+[METRICS] Class 01: Dice=0.4333 | Jaccard=0.3880 | HD95=2.1008
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.1916 | Jaccard=0.1723 | HD95=7.1447
+[METRICS] Class 04: Dice=0.2054 | Jaccard=0.1899 | HD95=8.7063
+[METRICS] Class 05: Dice=0.3487 | Jaccard=0.3269 | HD95=8.1410
+[METRICS] Class 06: Dice=0.0205 | Jaccard=0.0168 | HD95=0.8699
+[METRICS] Class 07: Dice=0.2249 | Jaccard=0.2049 | HD95=5.3716
+[METRICS] Class 08: Dice=0.2463 | Jaccard=0.2250 | HD95=5.6016
+current epoch: 9 current lr: 0.001
+Epoch 9, Loss=0.923594, Loss_SEG=0.050739, Loss_DICE=0.872855
+[METRICS] Macro (classes 1..8) Dice=0.2130 | Jaccard=0.1937 | HD95=5.1009
+[METRICS] Class 01: Dice=0.3914 | Jaccard=0.3499 | HD95=2.6327
+[METRICS] Class 02: Dice=0.0000 | Jaccard=0.0000 | HD95=0.0000
+[METRICS] Class 03: Dice=0.2021 | Jaccard=0.1812 | HD95=5.1285
+[METRICS] Class 04: Dice=0.2134 | Jaccard=0.1939 | HD95=5.9037
+[METRICS] Class 05: Dice=0.3807 | Jaccard=0.3539 | HD95=11.1002
+[METRICS] Class 06: Dice=0.0142 | Jaccard=0.0119 | HD95=1.8125
+[METRICS] Class 07: Dice=0.2600 | Jaccard=0.2445 | HD95=7.4157
+[METRICS] Class 08: Dice=0.2426 | Jaccard=0.2144 | HD95=6.8139
+current epoch: 10 current lr: 0.001
+Epoch 10, Loss=0.913299, Loss_SEG=0.043820, Loss_DICE=0.869479
+[METRICS] Macro (classes 1..8) Dice=0.2412 | Jaccard=0.2202 | HD95=4.4386
+[METRICS] Class 01: Dice=0.4495 | Jaccard=0.4011 | HD95=3.0042
+[METRICS] Class 02: Dice=0.0209 | Jaccard=0.0186 | HD95=0.3862
+[METRICS] Class 03: Dice=0.2137 | Jaccard=0.1933 | HD95=4.3278
+[METRICS] Class 04: Dice=0.2049 | Jaccard=0.1848 | HD95=8.7123
+[METRICS] Class 05: Dice=0.4177 | Jaccard=0.3943 | HD95=7.0519
+[METRICS] Class 06: Dice=0.0736 | Jaccard=0.0674 | HD95=2.2221
+[METRICS] Class 07: Dice=0.2701 | Jaccard=0.2509 | HD95=5.0181
+[METRICS] Class 08: Dice=0.2790 | Jaccard=0.2515 | HD95=4.7858
+current epoch: 11 current lr: 0.001
+Epoch 11, Loss=0.908259, Loss_SEG=0.040789, Loss_DICE=0.867470
+[METRICS] Macro (classes 1..8) Dice=0.2595 | Jaccard=0.2371 | HD95=4.6880
+[METRICS] Class 01: Dice=0.4415 | Jaccard=0.3958 | HD95=2.1424
+[METRICS] Class 02: Dice=0.0858 | Jaccard=0.0792 | HD95=0.6745
+[METRICS] Class 03: Dice=0.2365 | Jaccard=0.2162 | HD95=6.6874
+[METRICS] Class 04: Dice=0.2148 | Jaccard=0.1937 | HD95=6.6148
+[METRICS] Class 05: Dice=0.4468 | Jaccard=0.4216 | HD95=8.4647
+[METRICS] Class 06: Dice=0.0775 | Jaccard=0.0677 | HD95=1.8649
+[METRICS] Class 07: Dice=0.2963 | Jaccard=0.2758 | HD95=5.5323
+[METRICS] Class 08: Dice=0.2772 | Jaccard=0.2466 | HD95=5.5233
+current epoch: 12 current lr: 0.001
+Epoch 12, Loss=0.909191, Loss_SEG=0.041242, Loss_DICE=0.867949
+[METRICS] Macro (classes 1..8) Dice=0.2303 | Jaccard=0.2106 | HD95=4.5401
+[METRICS] Class 01: Dice=0.4257 | Jaccard=0.3843 | HD95=2.2240
+[METRICS] Class 02: Dice=0.0926 | Jaccard=0.0877 | HD95=0.4486
+[METRICS] Class 03: Dice=0.2262 | Jaccard=0.2105 | HD95=6.2320
+[METRICS] Class 04: Dice=0.2121 | Jaccard=0.1945 | HD95=4.2073
+[METRICS] Class 05: Dice=0.3514 | Jaccard=0.3258 | HD95=9.6578
+[METRICS] Class 06: Dice=0.0715 | Jaccard=0.0602 | HD95=2.0773
+[METRICS] Class 07: Dice=0.2232 | Jaccard=0.2082 | HD95=6.7719
+[METRICS] Class 08: Dice=0.2397 | Jaccard=0.2139 | HD95=4.7019
+current epoch: 13 current lr: 0.001
+Epoch 13, Loss=0.906135, Loss_SEG=0.038065, Loss_DICE=0.868071
+[METRICS] Macro (classes 1..8) Dice=0.2480 | Jaccard=0.2275 | HD95=3.6385
+[METRICS] Class 01: Dice=0.5259 | Jaccard=0.4777 | HD95=2.4269
+[METRICS] Class 02: Dice=0.0490 | Jaccard=0.0421 | HD95=0.8489
+[METRICS] Class 03: Dice=0.2353 | Jaccard=0.2165 | HD95=5.5563
+[METRICS] Class 04: Dice=0.2293 | Jaccard=0.2101 | HD95=3.6780
+[METRICS] Class 05: Dice=0.4107 | Jaccard=0.3885 | HD95=6.4172
+[METRICS] Class 06: Dice=0.0746 | Jaccard=0.0641 | HD95=1.7894
+[METRICS] Class 07: Dice=0.2214 | Jaccard=0.2080 | HD95=4.2913
+[METRICS] Class 08: Dice=0.2379 | Jaccard=0.2129 | HD95=4.0998
+current epoch: 14 current lr: 0.001
+Epoch 14, Loss=0.913518, Loss_SEG=0.044065, Loss_DICE=0.869453
+[METRICS] Macro (classes 1..8) Dice=0.2354 | Jaccard=0.2141 | HD95=4.3122
+[METRICS] Class 01: Dice=0.4783 | Jaccard=0.4316 | HD95=3.2230
+[METRICS] Class 02: Dice=0.1001 | Jaccard=0.0917 | HD95=0.7586
+[METRICS] Class 03: Dice=0.2019 | Jaccard=0.1832 | HD95=6.4387
+[METRICS] Class 04: Dice=0.1898 | Jaccard=0.1720 | HD95=3.6575
+[METRICS] Class 05: Dice=0.3996 | Jaccard=0.3713 | HD95=7.3059
+[METRICS] Class 06: Dice=0.0437 | Jaccard=0.0366 | HD95=1.8081
+[METRICS] Class 07: Dice=0.2623 | Jaccard=0.2424 | HD95=7.1949
+[METRICS] Class 08: Dice=0.2072 | Jaccard=0.1837 | HD95=4.1109
+current epoch: 15 current lr: 0.001
+Epoch 15, Loss=0.902852, Loss_SEG=0.035003, Loss_DICE=0.867848
+[METRICS] Macro (classes 1..8) Dice=0.2555 | Jaccard=0.2341 | HD95=3.7701
+[METRICS] Class 01: Dice=0.4888 | Jaccard=0.4460 | HD95=2.6611
+[METRICS] Class 02: Dice=0.0909 | Jaccard=0.0839 | HD95=0.8627
+[METRICS] Class 03: Dice=0.2338 | Jaccard=0.2150 | HD95=5.3270
+[METRICS] Class 04: Dice=0.2360 | Jaccard=0.2149 | HD95=3.9119
+[METRICS] Class 05: Dice=0.4141 | Jaccard=0.3895 | HD95=7.2806
+[METRICS] Class 06: Dice=0.0735 | Jaccard=0.0589 | HD95=2.7129
+[METRICS] Class 07: Dice=0.2568 | Jaccard=0.2418 | HD95=3.7051
+[METRICS] Class 08: Dice=0.2496 | Jaccard=0.2226 | HD95=3.6993
+current epoch: 16 current lr: 0.001
+Epoch 16, Loss=0.899493, Loss_SEG=0.034292, Loss_DICE=0.865200
+[METRICS] Macro (classes 1..8) Dice=0.2326 | Jaccard=0.2119 | HD95=3.3301
+[METRICS] Class 01: Dice=0.4714 | Jaccard=0.4265 | HD95=1.8999
+[METRICS] Class 02: Dice=0.0806 | Jaccard=0.0712 | HD95=0.8346
+[METRICS] Class 03: Dice=0.1933 | Jaccard=0.1747 | HD95=5.7854
+[METRICS] Class 04: Dice=0.2279 | Jaccard=0.2090 | HD95=3.7628
+[METRICS] Class 05: Dice=0.3621 | Jaccard=0.3437 | HD95=4.4458
+[METRICS] Class 06: Dice=0.0791 | Jaccard=0.0631 | HD95=2.3467
+[METRICS] Class 07: Dice=0.2119 | Jaccard=0.1992 | HD95=3.1539
+[METRICS] Class 08: Dice=0.2343 | Jaccard=0.2078 | HD95=4.4115
+current epoch: 17 current lr: 0.001
+Epoch 17, Loss=0.901166, Loss_SEG=0.033803, Loss_DICE=0.867363
+[METRICS] Macro (classes 1..8) Dice=0.2162 | Jaccard=0.1972 | HD95=3.2460
+[METRICS] Class 01: Dice=0.3947 | Jaccard=0.3569 | HD95=1.6491
+[METRICS] Class 02: Dice=0.0726 | Jaccard=0.0649 | HD95=0.5693
+[METRICS] Class 03: Dice=0.2433 | Jaccard=0.2236 | HD95=4.3560
+[METRICS] Class 04: Dice=0.1996 | Jaccard=0.1801 | HD95=4.7535
+[METRICS] Class 05: Dice=0.3379 | Jaccard=0.3168 | HD95=5.7649
+[METRICS] Class 06: Dice=0.0745 | Jaccard=0.0615 | HD95=2.0040
+[METRICS] Class 07: Dice=0.2022 | Jaccard=0.1886 | HD95=3.2975
+[METRICS] Class 08: Dice=0.2053 | Jaccard=0.1854 | HD95=3.5738
+current epoch: 18 current lr: 0.001
+Epoch 18, Loss=0.895672, Loss_SEG=0.029958, Loss_DICE=0.865714
+[METRICS] Macro (classes 1..8) Dice=0.2672 | Jaccard=0.2458 | HD95=3.1523
+[METRICS] Class 01: Dice=0.4915 | Jaccard=0.4449 | HD95=1.9767
+[METRICS] Class 02: Dice=0.0776 | Jaccard=0.0722 | HD95=0.5149
+[METRICS] Class 03: Dice=0.2588 | Jaccard=0.2399 | HD95=3.2839
+[METRICS] Class 04: Dice=0.2506 | Jaccard=0.2291 | HD95=4.9509
+[METRICS] Class 05: Dice=0.4039 | Jaccard=0.3851 | HD95=3.5410
+[METRICS] Class 06: Dice=0.1303 | Jaccard=0.1105 | HD95=3.5327
+[METRICS] Class 07: Dice=0.2840 | Jaccard=0.2685 | HD95=2.8676
+[METRICS] Class 08: Dice=0.2406 | Jaccard=0.2166 | HD95=4.5508
+current epoch: 19 current lr: 0.001
+Epoch 19, Loss=0.876603, Loss_SEG=0.038992, Loss_DICE=0.837611
+[METRICS] Macro (classes 1..8) Dice=0.2616 | Jaccard=0.2407 | HD95=3.0287
+[METRICS] Class 01: Dice=0.4779 | Jaccard=0.4355 | HD95=1.3359
+[METRICS] Class 02: Dice=0.0698 | Jaccard=0.0632 | HD95=0.6090
+[METRICS] Class 03: Dice=0.2453 | Jaccard=0.2257 | HD95=3.8613
+[METRICS] Class 04: Dice=0.2457 | Jaccard=0.2235 | HD95=3.8800
+[METRICS] Class 05: Dice=0.4453 | Jaccard=0.4209 | HD95=5.5267
+[METRICS] Class 06: Dice=0.0980 | Jaccard=0.0854 | HD95=2.3065
+[METRICS] Class 07: Dice=0.2682 | Jaccard=0.2531 | HD95=1.9158
+[METRICS] Class 08: Dice=0.2428 | Jaccard=0.2184 | HD95=4.7945
+current epoch: 20 current lr: 0.001
+Epoch 20, Loss=0.826190, Loss_SEG=0.051248, Loss_DICE=0.774943
+[METRICS] Macro (classes 1..8) Dice=0.2503 | Jaccard=0.2297 | HD95=3.5258
+[METRICS] Class 01: Dice=0.4717 | Jaccard=0.4239 | HD95=2.0066
+[METRICS] Class 02: Dice=0.0774 | Jaccard=0.0730 | HD95=0.4376
+[METRICS] Class 03: Dice=0.2711 | Jaccard=0.2536 | HD95=4.7575
+[METRICS] Class 04: Dice=0.2097 | Jaccard=0.1914 | HD95=3.8150
+[METRICS] Class 05: Dice=0.3761 | Jaccard=0.3532 | HD95=7.2624
+[METRICS] Class 06: Dice=0.0874 | Jaccard=0.0777 | HD95=1.6914
+[METRICS] Class 07: Dice=0.2912 | Jaccard=0.2741 | HD95=4.1627
+[METRICS] Class 08: Dice=0.2176 | Jaccard=0.1906 | HD95=4.0737
+current epoch: 21 current lr: 0.001
+Epoch 21, Loss=0.781004, Loss_SEG=0.055091, Loss_DICE=0.725913
+[METRICS] Macro (classes 1..8) Dice=0.2174 | Jaccard=0.1959 | HD95=3.5421
+[METRICS] Class 01: Dice=0.4360 | Jaccard=0.3927 | HD95=2.1971
+[METRICS] Class 02: Dice=0.0304 | Jaccard=0.0269 | HD95=0.4319
+[METRICS] Class 03: Dice=0.2101 | Jaccard=0.1869 | HD95=5.1448
+[METRICS] Class 04: Dice=0.1965 | Jaccard=0.1758 | HD95=4.2513
+[METRICS] Class 05: Dice=0.3623 | Jaccard=0.3377 | HD95=6.5282
+[METRICS] Class 06: Dice=0.0648 | Jaccard=0.0521 | HD95=1.8581
+[METRICS] Class 07: Dice=0.2312 | Jaccard=0.2113 | HD95=4.3148
+[METRICS] Class 08: Dice=0.2078 | Jaccard=0.1841 | HD95=3.6104
+current epoch: 22 current lr: 0.001
+Epoch 22, Loss=0.669450, Loss_SEG=0.070144, Loss_DICE=0.599306
+[METRICS] Macro (classes 1..8) Dice=0.1942 | Jaccard=0.1763 | HD95=2.7403
+[METRICS] Class 01: Dice=0.4178 | Jaccard=0.3691 | HD95=2.3874
+[METRICS] Class 02: Dice=0.0075 | Jaccard=0.0064 | HD95=0.1194
+[METRICS] Class 03: Dice=0.1984 | Jaccard=0.1768 | HD95=4.3308
+[METRICS] Class 04: Dice=0.2099 | Jaccard=0.1901 | HD95=4.8077
+[METRICS] Class 05: Dice=0.3566 | Jaccard=0.3372 | HD95=4.5039
+[METRICS] Class 06: Dice=0.0045 | Jaccard=0.0045 | HD95=0.8330
+[METRICS] Class 07: Dice=0.1929 | Jaccard=0.1792 | HD95=2.4138
+[METRICS] Class 08: Dice=0.1663 | Jaccard=0.1475 | HD95=2.5268
+current epoch: 23 current lr: 0.001
+Epoch 23, Loss=0.630552, Loss_SEG=0.066734, Loss_DICE=0.563818
+[METRICS] Macro (classes 1..8) Dice=0.2263 | Jaccard=0.2075 | HD95=3.1149
+[METRICS] Class 01: Dice=0.4805 | Jaccard=0.4373 | HD95=1.6179
+[METRICS] Class 02: Dice=0.0028 | Jaccard=0.0016 | HD95=0.2106
+[METRICS] Class 03: Dice=0.2273 | Jaccard=0.2073 | HD95=3.7144
+[METRICS] Class 04: Dice=0.2308 | Jaccard=0.2102 | HD95=5.4116
+[METRICS] Class 05: Dice=0.4141 | Jaccard=0.3910 | HD95=5.4819
+[METRICS] Class 06: Dice=0.0203 | Jaccard=0.0160 | HD95=2.2729
+[METRICS] Class 07: Dice=0.2216 | Jaccard=0.2088 | HD95=2.9528
+[METRICS] Class 08: Dice=0.2127 | Jaccard=0.1875 | HD95=3.2571
+current epoch: 24 current lr: 0.001

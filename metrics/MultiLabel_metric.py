@@ -59,13 +59,24 @@ def calculate_metric_percase(pred, gt):
         return 0, 0, 0
 
 def multilabel_metric(pred, gt, num_classes):
-    gt = gt.squeeze(0)
+    pred = np.asarray(pred)
+    gt = np.asarray(gt)
+
+    # Accept (1,H,W) or (H,W)
+    if gt.ndim == 3 and gt.shape[0] == 1:
+        gt = gt[0]
+    elif gt.ndim != 2:
+        raise ValueError(f"Unexpected gt shape: {gt.shape}")
+
+    if pred.ndim == 3 and pred.shape[0] == 1:
+        pred = pred[0]
+    elif pred.ndim != 2:
+        raise ValueError(f"Unexpected pred shape: {pred.shape}")
+
     metric_list = []
     for i in range(1, num_classes):
         metric_list.append(calculate_metric_percase(pred == i, gt == i))
-    return metric_list  # list, lenth=num_classes-1, 每个元素含有(x,y,z)
-
-
+    return metric_list
 
 # def test_single_volume(image, label, net, classes, patch_size=[256, 256], test_save_path=None, case=None, z_spacing=1):
 #     image, label = image.squeeze(0).cpu().detach().numpy(), label.squeeze(0).cpu().detach().numpy()

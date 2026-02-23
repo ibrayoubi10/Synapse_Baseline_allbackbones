@@ -17,20 +17,9 @@ from datasets.dataset_synapse import Synapse_dataset, RandomGenerator
 import torch
 import torch.nn as nn
 import datetime
-
-# ✅ Multi-label metrics import (your MultiLabel_metric.py must be reachable from PROJECT_ROOT)
-try:
-    from MultiLabel_metric import multilabel_metric
-except Exception as e:
-    print(
-        "[WARN] Could not import MultiLabel_metric.py. "
-        "Make sure it's in the same folder as this script or in PYTHONPATH.\n"
-        f"Error: {e}"
-    )
-    multilabel_metric = None
+from metrics.MultiLabel_metric import multilabel_metric
 
 torch.cuda.set_device(0)
-
 
 def make_print_to_file(path="./logs"):
     """
@@ -265,7 +254,7 @@ def main():
     criterion_seg = nn.CrossEntropyLoss(reduction="mean")
     criterion_dice = DiceLoss(n_classes=opts.num_classes)
 
-    # ✅ CRITICAL FIX: create optimizer ONCE (do not recreate every epoch)
+    # CRITICAL FIX: create optimizer ONCE (do not recreate every epoch)
     optimizer = torch.optim.AdamW(model.parameters(), lr=opts.LR, weight_decay=opts.weight_decay)
 
     tm = datetime.datetime.now().strftime("T" + "%m%d%H%M")
