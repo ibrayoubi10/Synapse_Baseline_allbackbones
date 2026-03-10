@@ -1,0 +1,148 @@
+---- Unet ----
+
+Best epoch index: 51
+Best epoch value: 51
+test_macro_dice (MAX): 0.758395
+
+[TEST macro metrics at best epoch]
+ - test_macro_dice: 0.758395
+ - test_macro_jac: 0.683738
+ - test_macro_hd95: 10.820693
+
+[TEST per-class Dice at best epoch]
+ - test_dice_c01: 0.865004
+ - test_dice_c02: 0.642278
+ - test_dice_c03: 0.798412
+ - test_dice_c04: 0.806616
+ - test_dice_c05: 0.874401
+ - test_dice_c06: 0.572487
+ - test_dice_c07: 0.844835
+ - test_dice_c08: 0.663130
+
+
+
+ ---- ResNet ----
+
+ Best epoch index: 132
+Best epoch value: 132
+test_macro_dice (MAX): 0.792793
+
+[TEST macro metrics at best epoch]
+ - test_macro_dice: 0.792793
+ - test_macro_jac: 0.724365
+ - test_macro_hd95: 6.772442
+
+[TEST per-class Dice at best epoch]
+ - test_dice_c0: NaN
+ - test_dice_c1: 0.899605
+ - test_dice_c2: 0.637454
+ - test_dice_c3: 0.863571
+ - test_dice_c4: 0.831070
+ - test_dice_c5: 0.903043
+ - test_dice_c6: 0.619026
+ - test_dice_c7: 0.866355
+ - test_dice_c8: 0.722217
+
+ 
+
+ ---- Efficient ----
+
+ Best epoch index: 37
+Best epoch value: 37
+test_macro_dice (MAX): 0.732526
+
+[TEST macro metrics at best epoch]
+ - test_macro_dice: 0.732526
+ - test_macro_jac: 0.646586
+ - test_macro_hd95: 10.327941
+
+[TEST per-class Dice at best epoch]
+ - test_dice_c0: NaN
+ - test_dice_c1: 0.843676
+ - test_dice_c2: 0.518130
+ - test_dice_c3: 0.838869
+ - test_dice_c4: 0.760197
+ - test_dice_c5: 0.862845
+ - test_dice_c6: 0.519436
+ - test_dice_c7: 0.838844
+ - test_dice_c8: 0.678209
+
+
+
+ ---- TransUnet ----
+
+ Best epoch index: 68
+Best epoch value: 68
+test_macro_dice (MAX): 0.742609
+
+[TEST macro metrics at best epoch]
+ - test_macro_dice: 0.742609
+ - test_macro_jac: 0.665310
+ - test_macro_hd95: 8.783016
+
+[TEST per-class Dice at best epoch]
+ - test_dice_c0: NaN
+ - test_dice_c1: 0.823354
+ - test_dice_c2: 0.550857
+ - test_dice_c3: 0.843247
+ - test_dice_c4: 0.806063
+ - test_dice_c5: 0.870253
+ - test_dice_c6: 0.544560
+ - test_dice_c7: 0.837105
+ - test_dice_c8: 0.665429
+
+
+
+ ---- DeepLab ----
+
+ Best epoch index: 55
+Best epoch value: 55
+test_macro_dice (MAX): 0.777935
+
+[TEST macro metrics at best epoch]
+ - test_macro_dice: 0.777935
+ - test_macro_jac: 0.705311
+ - test_macro_hd95: 6.625279
+
+[TEST per-class Dice at best epoch]
+ - test_dice_c0: NaN
+ - test_dice_c1: 0.850577
+ - test_dice_c2: 0.609321
+ - test_dice_c3: 0.857541
+ - test_dice_c4: 0.827505
+ - test_dice_c5: 0.895282
+ - test_dice_c6: 0.596585
+ - test_dice_c7: 0.850275
+ - test_dice_c8: 0.736393
+
+ ---- Unext ----
+
+ Best epoch index: 139
+Best epoch value: 139
+test_macro_dice (MAX): 0.670567
+
+[TEST macro metrics at best epoch]
+ - test_macro_dice: 0.670567
+ - test_macro_jac: 0.581966
+ - test_macro_hd95: 11.437464
+
+ 
+
+ ---- HiFormer ----
+
+ [TEST macro metrics at best epoch]
+ - test_macro_dice: 0.774931
+ - test_macro_jac: 0.696241
+ - test_macro_hd95: 7.269123
+
+[TEST per-class Dice at best epoch]
+ - test_dice_c0: NaN
+ - test_dice_c1: 0.850143
+ - test_dice_c2: 0.620833
+ - test_dice_c3: 0.864834
+ - test_dice_c4: 0.807374
+ - test_dice_c5: 0.882727
+ - test_dice_c6: 0.598687
+ - test_dice_c7: 0.856603
+ - test_dice_c8: 0.718245
+ - test_dice_loss: 0.090049
