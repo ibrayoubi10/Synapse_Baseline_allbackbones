@@ -2,8 +2,6 @@
 
 Baseline training pipelines for **multi-class medical image segmentation** on the **Synapse** dataset using several backbone families, including **UNet**, **UNeXt**, and a **ResNet-based encoder-decoder**. The repository is organized around training scripts, evaluating, dataset utilities, losses, metrics, plotting utilities, and experiment outputs.
 
----
-
 ## Overview
 
 This project provides a set of baseline experiments for **2D slice-based segmentation** on the Synapse dataset.  
